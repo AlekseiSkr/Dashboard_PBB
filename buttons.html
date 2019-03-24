@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Button Ui</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="css/buttons.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+
+  </head>
+  <body>
+    <header>
+        <div class="container">
+                <a href="index.html"><p class="logo"> Battle<span>Bot</span></p></a>
+            <div class="return">
+              <a href="index.html"><img src="home.jpg"></a>
+            </div>
+        </div>
+    </header>
+    <div id="container">
+      <img id="arrow_up" height="100px" width="100px" src="img/arrow_up.png" onclick="buttonPressed('forward')"></img>
+      <img id="arrow_right" height="100px" width="100px" src="img/arrow_right.png" onclick="buttonPressed('right')"></img>
+      <img id="arrow_left" height="100px" width="100px" src="img/arrow_left.png" onclick="buttonPressed('left')"></img>
+      <img id="arrow_down" height="100px" width="100px" src="img/arrow_down.png" onclick="buttonPressed('reverse')"></img>
+    </div>
+    <footer>
+        <p>Stenden battle bot 2019</p>
+    </footer>
+  </body>
+  <script>
+    function buttonPressed(message) {
+      alert(message);
+    }
+  </script>
+</html>

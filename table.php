@@ -24,7 +24,7 @@
                             else 
                             {
 
-                                
+                                echo "<table>";
                                 
                                     echo "<tr>
                                     <th>Teams</th>
@@ -38,6 +38,7 @@
                                 echo "<td>".$race."</td>";
                                 echo "<td>".$sumo."</td>";
                                 echo "<td>".$football."</td></tr>";
+                                echo "</table>";
                                 }
 
                             }

@@ -4,13 +4,18 @@
       <link rel="stylesheet" type="text/css" href="css/style.css" />
     </head>
             <body>
+              <header>
+                  <div class="container">
+                      <a href="index.html"><p class="logo"> Battle<span>Bot</span></p></a>
+                  </div>
+              </header>
 
                 <?php
 
                         include_once('dbh-inc.php');
 
                         $SQLstring = "SELECT Team,ObstacleRace,Sumo,FollowTheLine,Football FROM Scoreboard";
-                        if ($stmt = mysqli_prepare($conn, $SQLstring)) 
+                        if ($stmt = mysqli_prepare($conn, $SQLstring))
 
                         $SQLstring = "SELECT Team,ObstacleRace,Sumo,FollowTheLine,Football FROM Scoreboard";
                         if ($stmt = mysqli_prepare($conn, $SQLstring))
@@ -30,9 +35,9 @@
                             {
 
 
-                                
-                                
-                                   
+
+
+
 
                                     echo "<div id='scoreboard-container'>";
                                     echo "<h1>Scoreboard</h1>";
@@ -56,7 +61,7 @@
                                 }
                                 echo "</table>";
                                 echo "</div>";
-                               
+
 
                             }
                                  mysqli_stmt_close($stmt);

@@ -24,8 +24,9 @@ header{
     padding-left: 12px;
     padding-top: 6px;
     border-bottom: 5px solid #F74B02;
-
+    text-align: left;
 }
+
 header p{
     color: white;
     font-size: 24px;
@@ -143,8 +144,10 @@ footer p{
 }
 
 table {
+  margin: auto;
   margin-top: 40px;
   width: 100%;
+  max-width: 800px;
   background-color: lightblue;
 }
 

@@ -6,7 +6,7 @@
 		<body>
 			<header>
 	        <div class="container">
-	                <a href="index.html"><p class="logo"> Battle<span>Bot</span></p></a>
+	        		<a href="index.html"><p class="logo"> Battle<span>Bot</span></p></a>
 	        </div>
 	    </header>
                     <div id="login-container">

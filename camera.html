@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> 
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -14,12 +15,17 @@
     </header>
 
     <div class="container feature-1 clearfix">
-        <div class="feed">
-                <img id="feed" src="http://foscam.serverict.nl/videostream.cgi" width="800" height="700">
-           <!-- <video src="http://foscam.serverict.nl/videostream.cgi" width="700" height="500" controls></video>-->
-        </div>
-        <!--<script scr="js/vbideo.js"></script>-->
-        </div>
+        <div class="feedContainer">
+            <div class="controlsFeed">
+                <iframe id=controlsFeed src="http://foscam.serverict.nl/camera.htm" scrolling="no" style="float:left; width: 170px; height:500px;  overflow: hidden;"></iframe>
+            </div>
+            <div class="cameraFeed">
+                <iframe if="controlsFeed" src="http://foscam.serverict.nl/videostream.cgi" scrolling="no" style="float:left; width: 550px; height: 500px;  overflow: hidden;"></iframe>
+            </div>		
+        
+			
+         </div>
     </div>
+    
 </body>
 </html>

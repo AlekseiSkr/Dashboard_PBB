@@ -90,10 +90,15 @@ box-shadow: 0px 11px 32px -4px rgba(0,0,0,0.75);
     height: 550px;
 }
 
-#feed{
-    width: 800px;
-    height: 550px;
+
+
+.feedContainer{
+    width: auto;
+    height: 500px;
+    float: left;
+
 }
+
 .manual h3{
     font-size: 30px;
     margin-bottom: 10px;

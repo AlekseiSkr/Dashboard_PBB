@@ -24,34 +24,27 @@
         <?php include("table.php");?>
  </div>
     <div class="container feature-1 clearfix">
-        <img src="img/arrows-main.png" alt="">
+        <a href="buttons.html"><img src="img/arrows-main.png" alt="A picture with buttons"></a>
         <div class="manual">
             <h3>Manual movement</h3>
             <span class="orange_line"></span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean 
-                euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan 
-                et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis 
-                natoque penatibus et magnis dis parturient montes.
+            <p>This page allows users to interact with the arduino and manually control it.
             </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean 
-                euismod bibendum laoreet.</p>
+            <p>Pressing on this image will lead you to the manual controls page.</p>
         </div>
         
         
     </div>
     <div class="grey-wrapper">
     <div class="container feature-2 clearfix">
-        <a href="camera.html"><img src="img/camera-main.png" alt=""></a>
+        <a href="camera.html"><img src="img/camera-main.png" alt="A picture with a camera"></a>
         <div class="camera">
             <h3>Live camera</h3>
             <span class="orange_line"></span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean 
-                euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan 
-                et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis 
-                natoque penatibus et magnis dis parturient montes.
+            <p>This page allows users to view a live broadcast of a camera setup inside NHL Stenden.
+                Also the camera can be manually moved and setup.
             </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean 
-                euismod bibendum laoreet.</p>
+            <p>Pressing on this image will lead you to the camera live controls page.</p>
         </div>
         </div>
         <footer>

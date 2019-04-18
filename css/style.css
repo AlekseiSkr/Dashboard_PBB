@@ -7,9 +7,11 @@ background: #fff;
 width: 100%;
 padding: 0;
 margin: 0;
+position: relative;
 }
 body a{
     text-decoration: none;
+    
 }
 .logo{
     margin:0;
@@ -200,4 +202,22 @@ label {
 
 .btn:hover {
   cursor: pointer;
+}
+
+.logout{
+    position: fixed;
+    right:10px;
+    border-radius: 4px;
+    border: 1px solid black;
+    padding: 4px;
+    top: 300px;
+    background-color: white;
+    
+    
+}
+
+.logout a{
+    
+    text-transform: none;
+    color: black;
 }

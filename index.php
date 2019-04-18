@@ -36,7 +36,7 @@
                                    {	
                                     include("control.php");
                                    
-                                    echo "<p><a href='index.php?page=logout'>Click here to Log Out</a></p>";
+                                    echo "<p class='logout'><a href='index.php?page=logout'>Click here to Log Out</a></p>";
 	
                                     }
 				else
